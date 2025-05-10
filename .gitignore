@@ -1,5 +1,6 @@
 *-backups/
 *.zip
 *.bak
+*.lck
 
 fp-info-cache
