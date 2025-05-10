@@ -3077,34 +3077,16 @@
 		)
 	)
 	(junction
-		(at 140.97 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02df77b6-ae91-4720-8eb3-99bb929a0c11")
-	)
-	(junction
 		(at 90.17 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0834164e-f045-46e9-8457-953793e45959")
 	)
 	(junction
-		(at 123.19 96.52)
+		(at 123.19 66.04)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "10bce61a-f4cc-43b6-84cb-6a6ec8a815a4")
-	)
-	(junction
-		(at 140.97 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11aeb151-9f37-49ec-ba55-4b2c5bc4e903")
-	)
-	(junction
-		(at 123.19 72.39)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b192623-b8ac-4b64-be50-9e6ffef26319")
+		(uuid "196a0286-6535-4407-9d61-8570c8f8de80")
 	)
 	(junction
 		(at 215.9 29.21)
@@ -3119,12 +3101,6 @@
 		(uuid "202a3506-b522-41e9-9645-f24484c3108c")
 	)
 	(junction
-		(at 123.19 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "266a6e20-ad9a-4174-993a-94e156ab32cc")
-	)
-	(junction
 		(at 215.9 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3137,10 +3113,40 @@
 		(uuid "303918f5-d02e-46d0-b46e-01ca6feecba3")
 	)
 	(junction
+		(at 140.97 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "36056273-0e49-44fc-90d9-8f8a6aabb0fc")
+	)
+	(junction
+		(at 140.97 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f437506-e0c3-4b5c-b595-8d044067d738")
+	)
+	(junction
+		(at 140.97 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42841f62-b53f-4685-93d5-47becac4bf07")
+	)
+	(junction
 		(at 134.62 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5069a672-2f80-417e-82eb-338ce442f074")
+	)
+	(junction
+		(at 140.97 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50eb9f20-2f61-47cc-907a-45b8d01c3df1")
+	)
+	(junction
+		(at 123.19 96.52)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5271b2ec-d204-48d5-8676-56e2ab52a0c8")
 	)
 	(junction
 		(at 237.49 38.1)
@@ -3149,22 +3155,16 @@
 		(uuid "52f4a128-0067-469e-8483-8b5024ac62c8")
 	)
 	(junction
-		(at 140.97 93.98)
+		(at 123.19 71.12)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "55d47524-fc9c-4121-9d02-8362db869c70")
+		(uuid "62d2f67d-2fa5-4e5d-a0f0-4ac104a9557e")
 	)
 	(junction
-		(at 123.19 104.14)
+		(at 123.19 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "66e52f39-d405-4fd7-aae0-6240becf8866")
-	)
-	(junction
-		(at 140.97 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6a1914a6-b6ee-469a-b58c-1c13756b62d1")
+		(uuid "69fb12cc-fdc1-4af6-9985-02db882f6298")
 	)
 	(junction
 		(at 134.62 24.13)
@@ -3224,6 +3224,26 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 102.87) (xy 140.97 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0709a2c4-f312-4293-9f5a-bf5e9ddc8222")
+	)
+	(wire
+		(pts
+			(xy 123.19 96.52) (xy 125.73 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "079070de-7b22-4bdd-b98a-2808453961ea")
+	)
+	(wire
+		(pts
 			(xy 151.13 27.94) (xy 151.13 24.13)
 		)
 		(stroke
@@ -3244,6 +3264,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 109.22) (xy 123.19 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e68f195-5aa1-427f-99c5-abd0e4b2c0ff")
+	)
+	(wire
+		(pts
 			(xy 82.55 96.52) (xy 82.55 71.12)
 		)
 		(stroke
@@ -3254,13 +3284,23 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 104.14) (xy 123.19 96.52)
+			(xy 125.73 60.96) (xy 123.19 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "162eaae7-0a83-4600-9b83-7371bf2d01c8")
+		(uuid "1567d432-1ae2-4529-8690-ac6c34977702")
+	)
+	(wire
+		(pts
+			(xy 123.19 71.12) (xy 123.19 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19b4cd9a-c956-466d-b08b-c87f0cb57b91")
 	)
 	(wire
 		(pts
@@ -3274,13 +3314,13 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 101.6) (xy 105.41 116.84)
+			(xy 123.19 102.87) (xy 129.54 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "28ca76dd-58c0-48e1-b2cd-b4f809a32278")
+		(uuid "226f5eb3-1829-4932-9ab0-f43f9502f38f")
 	)
 	(wire
 		(pts
@@ -3294,16 +3334,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 93.98) (xy 157.48 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "30a021f6-b038-4f3f-9d1d-8b2eec137d2c")
-	)
-	(wire
-		(pts
 			(xy 90.17 66.04) (xy 82.55 66.04)
 		)
 		(stroke
@@ -3314,13 +3344,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 78.74) (xy 123.19 72.39)
+			(xy 137.16 109.22) (xy 140.97 109.22)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "33146074-79e1-4182-ae8c-dd042b6541fb")
+		(uuid "31cc4f1a-2f28-4da8-b2af-b86b70b8f072")
 	)
 	(wire
 		(pts
@@ -3334,33 +3364,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 66.04) (xy 125.73 66.04)
+			(xy 86.36 113.03) (xy 90.17 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3cb0e4f7-4671-4ffc-8e46-2e80c28ca809")
-	)
-	(wire
-		(pts
-			(xy 129.54 78.74) (xy 123.19 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42f99f08-48f3-4ee5-8dbe-68e8e1f686c9")
-	)
-	(wire
-		(pts
-			(xy 137.16 78.74) (xy 140.97 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "467fb63f-324f-44f5-9eb7-e155744cc046")
+		(uuid "44de3b10-00b8-4f40-83a6-4e738cdb3f3f")
 	)
 	(wire
 		(pts
@@ -3374,33 +3384,13 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 104.14) (xy 140.97 104.14)
+			(xy 157.48 80.01) (xy 162.56 80.01)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a0f25c6-6fcd-42c7-a348-c331ca2e5adf")
-	)
-	(wire
-		(pts
-			(xy 123.19 72.39) (xy 129.54 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50e688b3-27af-47e0-b9e9-100fb7131177")
-	)
-	(wire
-		(pts
-			(xy 86.36 113.03) (xy 90.17 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53f18d87-7341-475d-8575-26f34da9f038")
+		(uuid "4cf9d38a-53e0-4094-8eec-1be4b9a4a1fd")
 	)
 	(wire
 		(pts
@@ -3414,16 +3404,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 82.55) (xy 166.37 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c0cbbc1-8dca-4357-94dc-5f76ea0c1065")
-	)
-	(wire
-		(pts
 			(xy 82.55 66.04) (xy 82.55 71.12)
 		)
 		(stroke
@@ -3434,23 +3414,13 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 60.96) (xy 125.73 60.96)
+			(xy 140.97 71.12) (xy 140.97 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6390224d-f7ad-4dc4-816c-85f74d9d474e")
-	)
-	(wire
-		(pts
-			(xy 123.19 96.52) (xy 125.73 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6748d4eb-547d-4b73-a0dc-1667cb7c388d")
+		(uuid "67832c1c-c2c7-416c-a08f-c75ecafab777")
 	)
 	(wire
 		(pts
@@ -3474,33 +3444,13 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 91.44) (xy 123.19 91.44)
+			(xy 157.48 81.28) (xy 166.37 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "6a265635-e1ec-4c85-ac56-1702cae3bde8")
-	)
-	(wire
-		(pts
-			(xy 123.19 72.39) (xy 123.19 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "70568da0-203f-4121-b27a-ffa16b50e097")
-	)
-	(wire
-		(pts
-			(xy 140.97 78.74) (xy 140.97 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "709d0fcd-c3f9-48fe-ada2-4fc1182daf8c")
+		(uuid "6921ee34-f193-4cfd-a6d0-c3ea65198fab")
 	)
 	(wire
 		(pts
@@ -3544,43 +3494,43 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 113.03) (xy 123.19 113.03)
+			(xy 162.56 80.01) (xy 162.56 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8497fc66-9d64-4b23-8372-39be1ce9b5fd")
+		(uuid "7ae52e59-9e1b-4535-8608-f040b40b8d71")
 	)
 	(wire
 		(pts
-			(xy 90.17 113.03) (xy 90.17 71.12)
+			(xy 162.56 82.55) (xy 166.37 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8d5fed9a-c075-4128-a8ba-7d69f3ee21a4")
+		(uuid "7c9177ed-16b7-42dd-88c3-20d852583e3b")
 	)
 	(wire
 		(pts
-			(xy 157.48 80.01) (xy 166.37 80.01)
+			(xy 137.16 102.87) (xy 140.97 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "8e6ef5a8-886c-4681-9e32-e4949807b824")
+		(uuid "8a8f657b-8c41-4636-a8f5-3f7483b7e23c")
 	)
 	(wire
 		(pts
-			(xy 140.97 72.39) (xy 140.97 63.5)
+			(xy 123.19 66.04) (xy 125.73 66.04)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "92452781-46ba-4060-ae11-4a5eb142debe")
+		(uuid "90977994-4474-47bc-8de7-4a1354437ebb")
 	)
 	(wire
 		(pts
@@ -3604,36 +3554,6 @@
 	)
 	(wire
 		(pts
-			(xy 86.36 116.84) (xy 105.41 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "99a87bd0-5ff8-4761-9bec-4c5f7af36472")
-	)
-	(wire
-		(pts
-			(xy 140.97 104.14) (xy 140.97 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9a9b8ffb-5ae9-4a8d-890f-a6ba5f29dd2c")
-	)
-	(wire
-		(pts
-			(xy 137.16 113.03) (xy 140.97 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b8dc141-0c39-4beb-a6e7-cba3250049a0")
-	)
-	(wire
-		(pts
 			(xy 182.88 40.64) (xy 194.31 40.64)
 		)
 		(stroke
@@ -3654,6 +3574,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 109.22) (xy 123.19 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1ff6c2f-1bd0-4abd-9309-d8f60642d043")
+	)
+	(wire
+		(pts
 			(xy 194.31 40.64) (xy 207.01 40.64)
 		)
 		(stroke
@@ -3661,6 +3591,26 @@
 			(type default)
 		)
 		(uuid "a2c449b6-9ab5-4067-a0e5-c01471a83135")
+	)
+	(wire
+		(pts
+			(xy 86.36 116.84) (xy 105.41 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4255584-f56f-4c57-bb5a-96ae1a632dde")
+	)
+	(wire
+		(pts
+			(xy 137.16 77.47) (xy 140.97 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a42ea64a-8640-4d12-b80e-fb5cc047c9cf")
 	)
 	(wire
 		(pts
@@ -3681,6 +3631,26 @@
 			(type default)
 		)
 		(uuid "a84a44cc-fd3c-4974-a3b4-684379a3650f")
+	)
+	(wire
+		(pts
+			(xy 157.48 81.28) (xy 157.48 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa80c22c-78e9-4055-920f-c33f462779f9")
+	)
+	(wire
+		(pts
+			(xy 90.17 71.12) (xy 90.17 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aec1642d-df73-4368-9673-65c249c6a291")
 	)
 	(wire
 		(pts
@@ -3754,16 +3724,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 104.14) (xy 129.54 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0aad862-9a70-47f2-a61b-fe3812569aed")
-	)
-	(wire
-		(pts
 			(xy 24.13 115.57) (xy 20.32 115.57)
 		)
 		(stroke
@@ -3774,13 +3734,23 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 72.39) (xy 140.97 72.39)
+			(xy 129.54 77.47) (xy 123.19 77.47)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5d98ddd-457c-4df6-91a6-6767fc688156")
+		(uuid "c2be0477-ddb3-4fc7-8061-34323baeed33")
+	)
+	(wire
+		(pts
+			(xy 140.97 109.22) (xy 140.97 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c344c281-5b8c-4628-ac55-1faae810d832")
 	)
 	(wire
 		(pts
@@ -3791,6 +3761,16 @@
 			(type default)
 		)
 		(uuid "ce40f6d3-b5b2-4b87-8f54-34f39260228f")
+	)
+	(wire
+		(pts
+			(xy 105.41 101.6) (xy 105.41 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d048b8b0-5826-496b-b580-54438d38a22c")
 	)
 	(wire
 		(pts
@@ -3824,6 +3804,36 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 71.12) (xy 129.54 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3a8e5d5-0a5a-4a0c-b7a1-266ce4b2021e")
+	)
+	(wire
+		(pts
+			(xy 123.19 71.12) (xy 123.19 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc097e00-f7da-4aaa-9c9b-42c4b2aadb90")
+	)
+	(wire
+		(pts
+			(xy 123.19 102.87) (xy 123.19 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4ba9e4b-dab2-4f3c-9ade-c524214b433d")
+	)
+	(wire
+		(pts
 			(xy 194.31 40.64) (xy 194.31 36.83)
 		)
 		(stroke
@@ -3844,13 +3854,23 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 113.03) (xy 123.19 104.14)
+			(xy 140.97 71.12) (xy 140.97 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "f407b9b4-38bd-481c-8d15-e08c6735715e")
+		(uuid "f2a39fd2-e949-43a4-a188-a9c63ed05976")
+	)
+	(wire
+		(pts
+			(xy 166.37 81.28) (xy 166.37 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f411549d-806b-48a6-a866-90cc35ef9335")
 	)
 	(wire
 		(pts
@@ -3864,6 +3884,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 91.44) (xy 125.73 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f61ab27e-ca52-40f6-9228-bc1da0f2cc29")
+	)
+	(wire
+		(pts
 			(xy 226.06 48.26) (xy 237.49 48.26)
 		)
 		(stroke
@@ -3871,6 +3901,16 @@
 			(type default)
 		)
 		(uuid "f8acfc45-a63f-4aed-832d-72e101ec4c6a")
+	)
+	(wire
+		(pts
+			(xy 137.16 71.12) (xy 140.97 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa26bb53-6a2e-44ee-8e76-420ba44b494c")
 	)
 	(wire
 		(pts
@@ -3891,16 +3931,6 @@
 			(type default)
 		)
 		(uuid "fc3177bf-e84c-4d12-b74f-a99c34eca13c")
-	)
-	(wire
-		(pts
-			(xy 140.97 113.03) (xy 140.97 104.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc3929b2-d013-4172-bf3c-b168799e8d33")
 	)
 	(symbol
 		(lib_id "Device:R")
@@ -3970,237 +4000,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 133.35 104.14 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "16cf5bc0-0fd8-454c-aef4-4903d37779ee")
-		(property "Reference" "R2"
-			(at 137.414 102.362 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "5.1k"
-			(at 138.43 105.918 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 133.35 105.918 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 133.35 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3db0f762-c712-4939-97a1-b960120843be")
-		)
-		(pin "1"
-			(uuid "8b986437-37ed-4796-90f0-c61bc0fceedc")
-		)
-		(instances
-			(project "sdrfrontend"
-				(path "/5a5e6f87-7ce6-4b7b-92a6-5808dc0ec353"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Amplifier_Operational:NJM4580")
-		(at 133.35 93.98 0)
-		(unit 2)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "174e8f74-1561-48ba-ab84-5d0d74cc2ccb")
-		(property "Reference" "U2"
-			(at 133.35 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "NJM4580"
-			(at 133.35 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 133.35 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.njr.com/semicon/PDF/NJM4580_E.pdf"
-			(at 133.35 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Dual Operational Amplifier, DIP-8/DMP-8/SIP-8/MSOP-8/SOP-8/SSOP-8"
-			(at 133.35 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "134ff364-cbff-4150-a1cf-2373180abb0f")
-		)
-		(pin "3"
-			(uuid "5ab00f98-fcbc-4f31-8e3e-3afd3ff9f502")
-		)
-		(pin "5"
-			(uuid "cce38151-e581-44dd-b8f1-00effb600683")
-		)
-		(pin "1"
-			(uuid "b34b5dd2-3188-434e-b60a-5da4a6fba5b2")
-		)
-		(pin "4"
-			(uuid "bf4e0653-c3ba-437a-8165-a23c0a7fb2c4")
-		)
-		(pin "8"
-			(uuid "824bdc2c-2d45-4310-b087-aee60ff0ecbb")
-		)
-		(pin "6"
-			(uuid "71d1d204-1897-457e-8743-f56511c7f77b")
-		)
-		(pin "7"
-			(uuid "8e9e461a-ec3d-429d-a35c-97431970ac9c")
-		)
-		(instances
-			(project ""
-				(path "/5a5e6f87-7ce6-4b7b-92a6-5808dc0ec353"
-					(reference "U2")
-					(unit 2)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 133.35 78.74 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a6d1752-1784-4e70-a96a-fa8fda7ce249")
-		(property "Reference" "C2"
-			(at 136.652 76.962 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "330p"
-			(at 137.668 81.026 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 129.54 79.7052 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 133.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 133.35 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f0e5e662-6626-4cf9-aa11-9d7e02ce02b9")
-		)
-		(pin "1"
-			(uuid "34771e27-ec90-4503-8bcf-a76e3c0f4ff1")
-		)
-		(instances
-			(project "sdrfrontend"
-				(path "/5a5e6f87-7ce6-4b7b-92a6-5808dc0ec353"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Analog_Switch:CD4066BE")
-		(at 88.9 30.48 0)
+		(at 62.23 30.48 0)
 		(unit 4)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "22d90f95-ec4e-4cbc-a33e-6cab8cf295a8")
+		(uuid "07b658e0-bdeb-4567-829a-9baafb37e091")
 		(property "Reference" "U1"
-			(at 88.9 22.86 0)
+			(at 62.23 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,7 +4018,7 @@
 			)
 		)
 		(property "Value" "CD4066BE"
-			(at 88.9 25.4 0)
+			(at 62.23 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4216,7 +4026,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 88.9 33.02 0)
+			(at 62.23 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4225,7 +4035,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 88.9 30.48 0)
+			(at 62.23 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4234,7 +4044,7 @@
 			)
 		)
 		(property "Description" "Quad 20V analog SPST 1:1 switch, DIP-14"
-			(at 88.9 30.48 0)
+			(at 62.23 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +4053,7 @@
 			)
 		)
 		(pin "10"
-			(uuid "9b4a8ed0-d658-483c-bec9-13166cfc6453")
+			(uuid "3a503baa-d514-4d4d-93c5-5f5ce95c5eff")
 		)
 		(pin "7"
 			(uuid "93269db6-c8b3-468e-afee-26d22aa0c271")
@@ -4258,7 +4068,7 @@
 			(uuid "93117846-bed2-4e0c-b9cd-c19d5870147a")
 		)
 		(pin "12"
-			(uuid "b69112ba-7b13-4fab-b812-a58cadf1016f")
+			(uuid "487cea5c-02db-41ae-b053-5d5c160fc58d")
 		)
 		(pin "13"
 			(uuid "22e66bc1-b345-4238-a4e4-2ad55d5f5fdb")
@@ -4282,10 +4092,10 @@
 			(uuid "2ee58a3f-bf26-4bb6-be34-0c7a4f0239bc")
 		)
 		(pin "11"
-			(uuid "2daed145-e7c8-4c4e-9b44-263b25eb7397")
+			(uuid "bfd0d6c6-1f2b-4b0c-a51e-43904a23e62d")
 		)
 		(instances
-			(project ""
+			(project "sdrfrontend"
 				(path "/5a5e6f87-7ce6-4b7b-92a6-5808dc0ec353"
 					(reference "U1")
 					(unit 4)
@@ -4294,32 +4104,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 133.35 113.03 270)
+		(lib_id "Device:R")
+		(at 133.35 71.12 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "23ec2ae0-7be4-49cf-8af8-7329d6efb73d")
-		(property "Reference" "C3"
-			(at 137.16 110.998 90)
+		(uuid "16cf5bc0-0fd8-454c-aef4-4903d37779ee")
+		(property "Reference" "R2"
+			(at 137.414 69.342 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "330p"
-			(at 137.922 115.316 90)
+		(property "Value" "5.1k"
+			(at 138.43 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
-			(at 129.54 113.9952 0)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 133.35 72.898 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,7 +4138,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 113.03 0)
+			(at 133.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 133.35 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3db0f762-c712-4939-97a1-b960120843be")
+		)
+		(pin "1"
+			(uuid "8b986437-37ed-4796-90f0-c61bc0fceedc")
+		)
+		(instances
+			(project "sdrfrontend"
+				(path "/5a5e6f87-7ce6-4b7b-92a6-5808dc0ec353"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 133.35 109.22 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a6d1752-1784-4e70-a96a-fa8fda7ce249")
+		(property "Reference" "C2"
+			(at 136.652 107.442 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330p"
+			(at 137.668 111.506 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+			(at 129.54 110.1852 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,7 +4214,74 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 133.35 113.03 0)
+			(at 133.35 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f0e5e662-6626-4cf9-aa11-9d7e02ce02b9")
+		)
+		(pin "1"
+			(uuid "34771e27-ec90-4503-8bcf-a76e3c0f4ff1")
+		)
+		(instances
+			(project "sdrfrontend"
+				(path "/5a5e6f87-7ce6-4b7b-92a6-5808dc0ec353"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 133.35 77.47 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "23ec2ae0-7be4-49cf-8af8-7329d6efb73d")
+		(property "Reference" "C3"
+			(at 137.16 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "330p"
+			(at 137.922 79.756 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm"
+			(at 129.54 78.4352 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 133.35 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 133.35 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,6 +4857,92 @@
 		)
 	)
 	(symbol
+		(lib_id "Amplifier_Operational:NJM4580")
+		(at 133.35 93.98 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "44676af6-cfdf-42cd-aedc-97f3fd0dc099")
+		(property "Reference" "U2"
+			(at 133.35 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NJM4580"
+			(at 133.35 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.njr.com/semicon/PDF/NJM4580_E.pdf"
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Operational Amplifier, DIP-8/DMP-8/SIP-8/MSOP-8/SOP-8/SSOP-8"
+			(at 133.35 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "134ff364-cbff-4150-a1cf-2373180abb0f")
+		)
+		(pin "3"
+			(uuid "5ab00f98-fcbc-4f31-8e3e-3afd3ff9f502")
+		)
+		(pin "5"
+			(uuid "d1f4a9e0-d514-4f4f-a0a1-72159d544f52")
+		)
+		(pin "1"
+			(uuid "b34b5dd2-3188-434e-b60a-5da4a6fba5b2")
+		)
+		(pin "4"
+			(uuid "bf4e0653-c3ba-437a-8165-a23c0a7fb2c4")
+		)
+		(pin "8"
+			(uuid "824bdc2c-2d45-4310-b087-aee60ff0ecbb")
+		)
+		(pin "6"
+			(uuid "666f7c90-753c-497f-9e14-4aec305d363a")
+		)
+		(pin "7"
+			(uuid "cb746a94-f850-4499-9668-66b5c0fab36e")
+		)
+		(instances
+			(project "sdrfrontend"
+				(path "/5a5e6f87-7ce6-4b7b-92a6-5808dc0ec353"
+					(reference "U2")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 219.71 29.21 0)
 		(unit 1)
@@ -5045,214 +5075,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Analog_Switch:CD4066BE")
-		(at 62.23 30.48 0)
-		(unit 3)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "55eb147c-2ce3-4b8a-b2a1-d67fef2625db")
-		(property "Reference" "U1"
-			(at 62.23 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CD4066BE"
-			(at 62.23 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 62.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 62.23 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad 20V analog SPST 1:1 switch, DIP-14"
-			(at 62.23 30.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "9b4a8ed0-d658-483c-bec9-13166cfc6454")
-		)
-		(pin "7"
-			(uuid "93269db6-c8b3-468e-afee-26d22aa0c272")
-		)
-		(pin "9"
-			(uuid "46c13f7a-f911-4c32-a35c-0fc90e26d0ee")
-		)
-		(pin "6"
-			(uuid "2fc43837-9ba9-4248-aa37-f21ae419de94")
-		)
-		(pin "14"
-			(uuid "93117846-bed2-4e0c-b9cd-c19d5870147b")
-		)
-		(pin "12"
-			(uuid "b69112ba-7b13-4fab-b812-a58cadf10170")
-		)
-		(pin "13"
-			(uuid "22e66bc1-b345-4238-a4e4-2ad55d5f5fdc")
-		)
-		(pin "1"
-			(uuid "eaab5fed-ccfc-4440-b55a-8fee7b4e1436")
-		)
-		(pin "8"
-			(uuid "958dab74-0c66-4d40-90bc-82ec48591677")
-		)
-		(pin "3"
-			(uuid "4b3277a4-f450-44b9-85dc-e80a6a420e43")
-		)
-		(pin "5"
-			(uuid "f98a2c13-67f0-4ae2-a98e-30757a9f31cf")
-		)
-		(pin "4"
-			(uuid "270271b8-0047-45b2-9504-c7d18af279e4")
-		)
-		(pin "2"
-			(uuid "2ee58a3f-bf26-4bb6-be34-0c7a4f0239bd")
-		)
-		(pin "11"
-			(uuid "2daed145-e7c8-4c4e-9b44-263b25eb7398")
-		)
-		(instances
-			(project ""
-				(path "/5a5e6f87-7ce6-4b7b-92a6-5808dc0ec353"
-					(reference "U1")
-					(unit 3)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Analog_Switch:CD4066BE")
-		(at 105.41 66.04 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "59a6c939-9fa9-4a43-8c44-eb0e848f57b3")
-		(property "Reference" "U1"
-			(at 105.41 58.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CD4066BE"
-			(at 105.41 60.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 105.41 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 105.41 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Quad 20V analog SPST 1:1 switch, DIP-14"
-			(at 105.41 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "10"
-			(uuid "9b4a8ed0-d658-483c-bec9-13166cfc6455")
-		)
-		(pin "7"
-			(uuid "93269db6-c8b3-468e-afee-26d22aa0c273")
-		)
-		(pin "9"
-			(uuid "46c13f7a-f911-4c32-a35c-0fc90e26d0ef")
-		)
-		(pin "6"
-			(uuid "2fc43837-9ba9-4248-aa37-f21ae419de95")
-		)
-		(pin "14"
-			(uuid "93117846-bed2-4e0c-b9cd-c19d5870147c")
-		)
-		(pin "12"
-			(uuid "b69112ba-7b13-4fab-b812-a58cadf10171")
-		)
-		(pin "13"
-			(uuid "22e66bc1-b345-4238-a4e4-2ad55d5f5fdd")
-		)
-		(pin "1"
-			(uuid "eaab5fed-ccfc-4440-b55a-8fee7b4e1437")
-		)
-		(pin "8"
-			(uuid "958dab74-0c66-4d40-90bc-82ec48591678")
-		)
-		(pin "3"
-			(uuid "4b3277a4-f450-44b9-85dc-e80a6a420e44")
-		)
-		(pin "5"
-			(uuid "f98a2c13-67f0-4ae2-a98e-30757a9f31d0")
-		)
-		(pin "4"
-			(uuid "270271b8-0047-45b2-9504-c7d18af279e5")
-		)
-		(pin "2"
-			(uuid "2ee58a3f-bf26-4bb6-be34-0c7a4f0239be")
-		)
-		(pin "11"
-			(uuid "2daed145-e7c8-4c4e-9b44-263b25eb7399")
-		)
-		(instances
-			(project ""
-				(path "/5a5e6f87-7ce6-4b7b-92a6-5808dc0ec353"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 68.58 120.65 0)
 		(unit 1)
@@ -5320,16 +5142,16 @@
 	)
 	(symbol
 		(lib_id "Analog_Switch:CD4066BE")
-		(at 105.41 96.52 0)
-		(unit 2)
+		(at 88.9 30.48 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "6d399cbc-07da-47d5-a96b-8db17afd279d")
+		(uuid "70556c91-bd6c-478e-8cb1-ae5ba21f4d94")
 		(property "Reference" "U1"
-			(at 105.41 88.9 0)
+			(at 88.9 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5337,7 +5159,7 @@
 			)
 		)
 		(property "Value" "CD4066BE"
-			(at 105.41 91.44 0)
+			(at 88.9 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5345,7 +5167,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
-			(at 105.41 99.06 0)
+			(at 88.9 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5354,7 +5176,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
-			(at 105.41 96.52 0)
+			(at 88.9 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5363,7 +5185,7 @@
 			)
 		)
 		(property "Description" "Quad 20V analog SPST 1:1 switch, DIP-14"
-			(at 105.41 96.52 0)
+			(at 88.9 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,52 +5194,52 @@
 			)
 		)
 		(pin "10"
-			(uuid "9b4a8ed0-d658-483c-bec9-13166cfc6456")
+			(uuid "9b4a8ed0-d658-483c-bec9-13166cfc6455")
 		)
 		(pin "7"
-			(uuid "93269db6-c8b3-468e-afee-26d22aa0c274")
+			(uuid "93269db6-c8b3-468e-afee-26d22aa0c273")
 		)
 		(pin "9"
-			(uuid "46c13f7a-f911-4c32-a35c-0fc90e26d0f0")
+			(uuid "46c13f7a-f911-4c32-a35c-0fc90e26d0ef")
 		)
 		(pin "6"
-			(uuid "2fc43837-9ba9-4248-aa37-f21ae419de96")
+			(uuid "2fc43837-9ba9-4248-aa37-f21ae419de95")
 		)
 		(pin "14"
-			(uuid "93117846-bed2-4e0c-b9cd-c19d5870147d")
+			(uuid "93117846-bed2-4e0c-b9cd-c19d5870147c")
 		)
 		(pin "12"
-			(uuid "b69112ba-7b13-4fab-b812-a58cadf10172")
+			(uuid "b69112ba-7b13-4fab-b812-a58cadf10171")
 		)
 		(pin "13"
-			(uuid "22e66bc1-b345-4238-a4e4-2ad55d5f5fde")
+			(uuid "7167b600-4423-414c-89f0-3df61e1a733b")
 		)
 		(pin "1"
-			(uuid "eaab5fed-ccfc-4440-b55a-8fee7b4e1438")
+			(uuid "7ed4fe9a-602f-4b75-926e-342ba23ab5d1")
 		)
 		(pin "8"
-			(uuid "958dab74-0c66-4d40-90bc-82ec48591679")
+			(uuid "958dab74-0c66-4d40-90bc-82ec48591678")
 		)
 		(pin "3"
-			(uuid "4b3277a4-f450-44b9-85dc-e80a6a420e45")
+			(uuid "4b3277a4-f450-44b9-85dc-e80a6a420e44")
 		)
 		(pin "5"
-			(uuid "f98a2c13-67f0-4ae2-a98e-30757a9f31d1")
+			(uuid "f98a2c13-67f0-4ae2-a98e-30757a9f31d0")
 		)
 		(pin "4"
-			(uuid "270271b8-0047-45b2-9504-c7d18af279e6")
+			(uuid "270271b8-0047-45b2-9504-c7d18af279e5")
 		)
 		(pin "2"
-			(uuid "2ee58a3f-bf26-4bb6-be34-0c7a4f0239bf")
+			(uuid "aba0da5d-2bf0-4aa3-a14e-44e36ffa4173")
 		)
 		(pin "11"
-			(uuid "2daed145-e7c8-4c4e-9b44-263b25eb739a")
+			(uuid "2daed145-e7c8-4c4e-9b44-263b25eb7399")
 		)
 		(instances
-			(project ""
+			(project "sdrfrontend"
 				(path "/5a5e6f87-7ce6-4b7b-92a6-5808dc0ec353"
 					(reference "U1")
-					(unit 2)
+					(unit 1)
 				)
 			)
 		)
@@ -5744,28 +5566,28 @@
 			)
 		)
 		(pin "2"
-			(uuid "134ff364-cbff-4150-a1cf-2373180abb0f")
+			(uuid "134ff364-cbff-4150-a1cf-2373180abb10")
 		)
 		(pin "3"
-			(uuid "5ab00f98-fcbc-4f31-8e3e-3afd3ff9f502")
+			(uuid "5ab00f98-fcbc-4f31-8e3e-3afd3ff9f503")
 		)
 		(pin "5"
-			(uuid "cce38151-e581-44dd-b8f1-00effb600683")
+			(uuid "cce38151-e581-44dd-b8f1-00effb600684")
 		)
 		(pin "1"
-			(uuid "b34b5dd2-3188-434e-b60a-5da4a6fba5b2")
+			(uuid "b34b5dd2-3188-434e-b60a-5da4a6fba5b3")
 		)
 		(pin "4"
-			(uuid "bf4e0653-c3ba-437a-8165-a23c0a7fb2c4")
+			(uuid "bf4e0653-c3ba-437a-8165-a23c0a7fb2c5")
 		)
 		(pin "8"
-			(uuid "824bdc2c-2d45-4310-b087-aee60ff0ecbb")
+			(uuid "824bdc2c-2d45-4310-b087-aee60ff0ecbc")
 		)
 		(pin "6"
-			(uuid "71d1d204-1897-457e-8743-f56511c7f77b")
+			(uuid "71d1d204-1897-457e-8743-f56511c7f77c")
 		)
 		(pin "7"
-			(uuid "8e9e461a-ec3d-429d-a35c-97431970ac9c")
+			(uuid "8e9e461a-ec3d-429d-a35c-97431970ac9d")
 		)
 		(instances
 			(project ""
@@ -5911,7 +5733,7 @@
 	)
 	(symbol
 		(lib_id "power:+2V5")
-		(at 123.19 60.96 0)
+		(at 123.19 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5920,7 +5742,7 @@
 		(fields_autoplaced yes)
 		(uuid "9bc8370b-1257-4b98-8605-f8fd71adc3b5")
 		(property "Reference" "#PWR012"
-			(at 123.19 64.77 0)
+			(at 123.19 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5929,7 +5751,7 @@
 			)
 		)
 		(property "Value" "+2V5"
-			(at 123.19 55.88 0)
+			(at 123.19 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5937,7 +5759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 60.96 0)
+			(at 123.19 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5946,7 +5768,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 60.96 0)
+			(at 123.19 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5955,7 +5777,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 123.19 60.96 0)
+			(at 123.19 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6134,42 +5956,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Amplifier_Operational:NJM4580")
-		(at 133.35 63.5 0)
-		(unit 1)
+		(lib_id "Analog_Switch:CD4066BE")
+		(at 105.41 96.52 0)
+		(unit 3)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a6017a83-ed23-4f26-b0c7-c4a87643e126")
-		(property "Reference" "U2"
-			(at 133.35 53.34 0)
+		(uuid "a18badff-7a41-433d-a95d-4ca1d71833c8")
+		(property "Reference" "U1"
+			(at 105.41 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "NJM4580"
-			(at 133.35 55.88 0)
+		(property "Value" "CD4066BE"
+			(at 105.41 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 133.35 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.njr.com/semicon/PDF/NJM4580_E.pdf"
-			(at 133.35 63.5 0)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 105.41 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6177,8 +5990,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Dual Operational Amplifier, DIP-8/DMP-8/SIP-8/MSOP-8/SOP-8/SSOP-8"
-			(at 133.35 63.5 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 105.41 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6186,35 +5999,62 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "134ff364-cbff-4150-a1cf-2373180abb0f")
+		(property "Description" "Quad 20V analog SPST 1:1 switch, DIP-14"
+			(at 105.41 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
-		(pin "3"
-			(uuid "5ab00f98-fcbc-4f31-8e3e-3afd3ff9f502")
-		)
-		(pin "5"
-			(uuid "cce38151-e581-44dd-b8f1-00effb600683")
-		)
-		(pin "1"
-			(uuid "b34b5dd2-3188-434e-b60a-5da4a6fba5b2")
-		)
-		(pin "4"
-			(uuid "bf4e0653-c3ba-437a-8165-a23c0a7fb2c4")
-		)
-		(pin "8"
-			(uuid "824bdc2c-2d45-4310-b087-aee60ff0ecbb")
-		)
-		(pin "6"
-			(uuid "71d1d204-1897-457e-8743-f56511c7f77b")
+		(pin "10"
+			(uuid "9b4a8ed0-d658-483c-bec9-13166cfc6454")
 		)
 		(pin "7"
-			(uuid "8e9e461a-ec3d-429d-a35c-97431970ac9c")
+			(uuid "93269db6-c8b3-468e-afee-26d22aa0c272")
+		)
+		(pin "9"
+			(uuid "f01efb77-fd23-44f0-ad04-7d39c052e819")
+		)
+		(pin "6"
+			(uuid "7c05a486-4fca-449a-8d38-b8b358d4d534")
+		)
+		(pin "14"
+			(uuid "93117846-bed2-4e0c-b9cd-c19d5870147b")
+		)
+		(pin "12"
+			(uuid "b69112ba-7b13-4fab-b812-a58cadf10170")
+		)
+		(pin "13"
+			(uuid "22e66bc1-b345-4238-a4e4-2ad55d5f5fdc")
+		)
+		(pin "1"
+			(uuid "eaab5fed-ccfc-4440-b55a-8fee7b4e1436")
+		)
+		(pin "8"
+			(uuid "6a3ecbc8-1fe5-4f10-8246-e3a815642f06")
+		)
+		(pin "3"
+			(uuid "4b3277a4-f450-44b9-85dc-e80a6a420e43")
+		)
+		(pin "5"
+			(uuid "f98a2c13-67f0-4ae2-a98e-30757a9f31cf")
+		)
+		(pin "4"
+			(uuid "270271b8-0047-45b2-9504-c7d18af279e4")
+		)
+		(pin "2"
+			(uuid "2ee58a3f-bf26-4bb6-be34-0c7a4f0239bd")
+		)
+		(pin "11"
+			(uuid "2daed145-e7c8-4c4e-9b44-263b25eb7398")
 		)
 		(instances
-			(project ""
+			(project "sdrfrontend"
 				(path "/5a5e6f87-7ce6-4b7b-92a6-5808dc0ec353"
-					(reference "U2")
-					(unit 1)
+					(reference "U1")
+					(unit 3)
 				)
 			)
 		)
@@ -6392,6 +6232,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Analog_Switch:CD4066BE")
+		(at 105.41 66.04 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b61ca7d9-957f-4e75-9c1a-d8532f060338")
+		(property "Reference" "U1"
+			(at 105.41 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CD4066BE"
+			(at 105.41 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-14_W7.62mm"
+			(at 105.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/cd4066b.pdf"
+			(at 105.41 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Quad 20V analog SPST 1:1 switch, DIP-14"
+			(at 105.41 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "10"
+			(uuid "9b4a8ed0-d658-483c-bec9-13166cfc6456")
+		)
+		(pin "7"
+			(uuid "93269db6-c8b3-468e-afee-26d22aa0c274")
+		)
+		(pin "9"
+			(uuid "46c13f7a-f911-4c32-a35c-0fc90e26d0f0")
+		)
+		(pin "6"
+			(uuid "2fc43837-9ba9-4248-aa37-f21ae419de96")
+		)
+		(pin "14"
+			(uuid "93117846-bed2-4e0c-b9cd-c19d5870147d")
+		)
+		(pin "12"
+			(uuid "b69112ba-7b13-4fab-b812-a58cadf10172")
+		)
+		(pin "13"
+			(uuid "22e66bc1-b345-4238-a4e4-2ad55d5f5fde")
+		)
+		(pin "1"
+			(uuid "eaab5fed-ccfc-4440-b55a-8fee7b4e1438")
+		)
+		(pin "8"
+			(uuid "958dab74-0c66-4d40-90bc-82ec48591679")
+		)
+		(pin "3"
+			(uuid "ff45fbb7-800f-4089-a204-c3605ad46707")
+		)
+		(pin "5"
+			(uuid "c44eb967-58d4-4ee0-b417-0266c653e8a5")
+		)
+		(pin "4"
+			(uuid "940352bb-e202-47e2-b079-4cf9c5be4f35")
+		)
+		(pin "2"
+			(uuid "2ee58a3f-bf26-4bb6-be34-0c7a4f0239bf")
+		)
+		(pin "11"
+			(uuid "2daed145-e7c8-4c4e-9b44-263b25eb739a")
+		)
+		(instances
+			(project "sdrfrontend"
+				(path "/5a5e6f87-7ce6-4b7b-92a6-5808dc0ec353"
+					(reference "U1")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+2V5")
 		(at 240.03 38.1 0)
 		(unit 1)
@@ -6459,7 +6403,7 @@
 	)
 	(symbol
 		(lib_id "power:+2V5")
-		(at 123.19 91.44 0)
+		(at 123.19 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6468,7 +6412,7 @@
 		(fields_autoplaced yes)
 		(uuid "cc6a4944-2b2f-4249-b5a9-411bde2db0e4")
 		(property "Reference" "#PWR013"
-			(at 123.19 95.25 0)
+			(at 123.19 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6477,7 +6421,7 @@
 			)
 		)
 		(property "Value" "+2V5"
-			(at 123.19 86.36 0)
+			(at 123.19 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6485,7 +6429,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 123.19 91.44 0)
+			(at 123.19 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6494,7 +6438,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 123.19 91.44 0)
+			(at 123.19 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,7 +6447,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+2V5\""
-			(at 123.19 91.44 0)
+			(at 123.19 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6585,6 +6529,92 @@
 			(project "sdrfrontend"
 				(path "/5a5e6f87-7ce6-4b7b-92a6-5808dc0ec353"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:NJM4580")
+		(at 133.35 63.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8c20eb7-a508-4f4f-adde-71ef9b54a674")
+		(property "Reference" "U2"
+			(at 133.35 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NJM4580"
+			(at 133.35 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 133.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.njr.com/semicon/PDF/NJM4580_E.pdf"
+			(at 133.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Dual Operational Amplifier, DIP-8/DMP-8/SIP-8/MSOP-8/SOP-8/SSOP-8"
+			(at 133.35 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c4aa074a-3ff2-4694-a2aa-5372f437cea1")
+		)
+		(pin "3"
+			(uuid "13d5b79b-da7d-499c-8886-75ccbc554bb3")
+		)
+		(pin "5"
+			(uuid "cce38151-e581-44dd-b8f1-00effb600685")
+		)
+		(pin "1"
+			(uuid "07022bcf-846c-4394-bc85-a90a388bfbd9")
+		)
+		(pin "4"
+			(uuid "bf4e0653-c3ba-437a-8165-a23c0a7fb2c6")
+		)
+		(pin "8"
+			(uuid "824bdc2c-2d45-4310-b087-aee60ff0ecbd")
+		)
+		(pin "6"
+			(uuid "71d1d204-1897-457e-8743-f56511c7f77d")
+		)
+		(pin "7"
+			(uuid "8e9e461a-ec3d-429d-a35c-97431970ac9e")
+		)
+		(instances
+			(project "sdrfrontend"
+				(path "/5a5e6f87-7ce6-4b7b-92a6-5808dc0ec353"
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7021,7 +7051,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 133.35 72.39 90)
+		(at 133.35 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7029,7 +7059,7 @@
 		(dnp no)
 		(uuid "ebb7985b-778f-434b-a8ff-9e2b299382ba")
 		(property "Reference" "R1"
-			(at 138.43 70.612 90)
+			(at 138.43 101.092 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7037,15 +7067,15 @@
 			)
 		)
 		(property "Value" "5.1k"
-			(at 138.684 74.168 90)
+			(at 138.684 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
-			(at 133.35 74.168 90)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
+			(at 133.35 104.648 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7054,7 +7084,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 133.35 72.39 0)
+			(at 133.35 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7063,7 +7093,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 133.35 72.39 0)
+			(at 133.35 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
